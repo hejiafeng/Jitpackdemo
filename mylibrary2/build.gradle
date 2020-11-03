@@ -1,9 +1,7 @@
 plugins {
     id 'com.android.library'
 }
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.hejiafeng'
-version = '1.0.1'
+
 android {
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
@@ -37,6 +35,4 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
-    implementation project(":mylibrary2")
 }

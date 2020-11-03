@@ -38,6 +38,13 @@ public class DateTimeUtils {
 		}
 	}
 
+	public static Girl getGirl(){
+		Girl girl = new Girl();
+		girl.setAge(18);
+		girl.setName("秀儿");
+		return girl;
+	}
+
 
 	/**
 	 * 获取当前月份的前几个月
